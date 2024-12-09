@@ -1,0 +1,74 @@
+1. Check if a Number is Even or Odd
+	Algorithm:
+		Input number.
+		If number % 2 == 0, print "Even".
+		Else, print "Odd".
+----------------------------------------------------------------------------------------------
+2. Compare Two Numbers
+	Algorithm:
+		Input num1 and num2.
+		If num1 == num2, print "Equal".
+		Else if num1 > num2, print num1 is greater.
+		Else, print num2 is greater.
+----------------------------------------------------------------------------------------------
+3. Find the Largest of Three Numbers
+	Algorithm:
+		Input num1, num2, and num3.
+		If num1 > num2 and num1 > num3, print num1 as the largest.
+		Else if num2 > num3, print num2 as the largest.
+		Else, print num3 as the largest.
+----------------------------------------------------------------------------------------------
+4. Check Voting Eligibility
+	Algorithm:
+		Input age.
+		If age >= 18, print "Eligible to vote".
+		Else, print "Not eligible to vote".
+----------------------------------------------------------------------------------------------
+5. Find the Grade of a Student
+	Algorithm:
+		Input marks.
+		If marks >= 90, print "Grade A".
+		Else if marks >= 75, print "Grade B".
+		Else if marks >= 50, print "Grade C".
+		Else, print "Grade F".
+----------------------------------------------------------------------------------------------
+6. Check if a Number is Divisible by 3 and 5
+	Algorithm:
+		Input number.
+		If number % 3 == 0 and number % 5 == 0, print "Divisible by both".
+		Else if number % 3 == 0, print "Divisible by 3".
+		Else if number % 5 == 0, print "Divisible by 5".
+		Else, print "Not divisible by either".
+----------------------------------------------------------------------------------------------
+7. Check Leap Year
+	Algorithm:
+		Input year.
+		If year % 4 == 0:
+		If year % 100 == 0:
+		If year % 400 == 0, print "Leap Year".
+		Else, print "Not a Leap Year".
+		Else, print "Leap Year".
+		Else, print "Not a Leap Year".
+----------------------------------------------------------------------------------------------
+8. Find the Absolute Value of a Number
+	Algorithm:
+		Input number.
+		If number < 0, set absoluteValue = -number.
+		Else, set absoluteValue = number.
+		Print absoluteValue.
+----------------------------------------------------------------------------------------------
+9. Check if a Character is a Vowel or Consonant
+	Algorithm:
+		Input letter.
+		If letter is one of 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U', print "Vowel".
+		Else, print "Consonant".
+----------------------------------------------------------------------------------------------
+10. Basic Calculator
+	Algorithm:
+		Input operator, num1, and num2.
+		Based on operator:
+		+: Add num1 and num2.
+		-: Subtract num2 from num1.
+		*: Multiply num1 and num2.
+		/: Divide num1 by num2 if num2 != 0; else print error.
+		Print the result.
